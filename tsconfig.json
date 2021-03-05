@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "module": "esnext",
+    "allowJs": true,
+    "noEmit": false,
+    "strict": false,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": ["esnext"],
+    "types": ["node", "jest"],
+    "baseUrl": ".",
+    "paths": {
+      "mock": ["./mock"]
+    },
+    "pretty": true,
+    "skipLibCheck": true
+  },
+  "include": ["**/*.ts", "src/services/api/schema.js"],
+  "exclude": [
+    "bin",
+    "infrastructure",
+    "data-factory",
+    "cdk.out",
+    "dist",
+    "node_modules"
+  ]
+}

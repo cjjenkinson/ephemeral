@@ -1,0 +1,24 @@
+{
+  "name": "application",
+  "version": "1.0.0",
+  "infrastructure": {
+      "core": {
+        "db": {
+          "stack": "Storage",
+          "entry": "./src/core/storage"
+        }
+      },
+      "services": [
+        {
+          "stack": "AudioService",
+          "handlers": [
+            {
+              "name": "process-waveform",
+              "entry": "./src/services/audio/process-waveform"
+            }
+          ]
+        }
+      ]
+  }
+}
+
