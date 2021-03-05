@@ -1,0 +1,23 @@
+{
+  "extends": "tslint:latest",
+  "rules": {
+    "curly": true,
+    "quotemark": [true, "single", "avoid-escape", "jsx-double"],
+    "ordered-imports": [false],
+    "member-ordering": [false],
+    "typedef": [true, "parameter", "property-declaration", "member-variable-declaration"],
+    "max-line-length": [false],
+    "object-literal-sort-keys": false,
+    "no-namespace": [false],
+    "interface-over-type-literal": [false],
+    "interface-name": [false],
+    "switch-default": false,
+    "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore"],
+    "no-submodule-imports": false,
+    "no-implicit-dependencies": [false],
+    "object-literal-key-quotes": [true, "as-needed"],
+    "max-classes-per-file": [false],
+    "no-console": false,
+    "only-arrow-functions": [false]
+  }
+}

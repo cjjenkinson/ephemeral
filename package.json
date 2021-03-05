@@ -1,0 +1,8 @@
+{
+  "name": "ephemeral",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/cjjenkinson/ephemeral",
+  "author": "Cameron Jenkinson <camjenkinson@gmail.com>",
+  "license": "MIT"
+}
